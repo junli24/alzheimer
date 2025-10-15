@@ -3,8 +3,6 @@ import numpy as np
 import os
 import pandas as pd # 用于最终输出和查看结果
 
-# 测试
-import sys
 
 def extract_surface_falff(falff_gii_path, atlas_gii_path, num_rois, hemi_prefix='lh'):
     """
@@ -38,9 +36,6 @@ def extract_surface_falff(falff_gii_path, atlas_gii_path, num_rois, hemi_prefix=
         atlas_gii = nib.load(atlas_gii_path)
         atlas_labels = atlas_gii.darrays[0].data
         print(f"成功加载 Atlas 标签，维度: {atlas_labels.shape}")
-		# 测试
-        print(max(atlas_labels))
-        sys.exit(0)
     except Exception as e:
         print(f"错误: 无法加载 Atlas 文件 {atlas_gii_path}. 确保文件存在且格式正确。")
         raise e
@@ -113,4 +108,5 @@ if __name__ == '__main__':
         # 保存为 CSV 文件
         output_filename = f'{SUBJECT_ID}_LH_fALFF_Schaefer200.csv'
         results_df.to_csv(output_filename)
+
         print(f"\n结果已保存至 {output_filename}")
