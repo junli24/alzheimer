@@ -80,7 +80,7 @@ if __name__ == '__main__':
     SUBJECT_ID = 'sub-002S0295'
     
     # 假设文件位于当前脚本运行目录下，请根据实际路径修改
-    FALFF_LH_GII = f'fALFF_{SUBJECT_ID}.func.gii'
+    FALFF_LH_GII = f'fALFF_lh_{SUBJECT_ID}.func.gii'
     ATLAS_LH_GII = 'fsaverage5_lh_Schaefer2018_400Parcels_7Networks_order.label.gii'
     LH_NUM_ROIS = 200 # 左半球 ROI 数量
 
