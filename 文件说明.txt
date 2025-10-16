@@ -16,8 +16,10 @@ ReHo_Volu.py：提取体素ReHo（54）
 ReHo_volu_sub-002S0295.nii：体素ReHo
 roi_signals.py：提取连接矩阵、加权度
 ROISignals_sub-002S0295.mat：ROI Bold信号
-sub-002S0295_space-fsaverage5_hemi-L.area.gii：左脑皮层表面积
-sub-002S0295_space-fsaverage5_hemi-R.area.gii：右脑皮层表面积
+sub-002S0295_space-fsaverage5_hemi-L.area.gii：左脑皮层area
+sub-002S0295_space-fsaverage5_hemi-L.curv.gii：左脑皮层curv
+sub-002S0295_space-fsaverage5_hemi-R.area.gii：右脑皮层area
+sub-002S0295_space-fsaverage5_hemi-R.curv.gii：右脑皮层curv
 Tian_Subcortex_S4_3T_2009cAsym.nii：体素地图
 
-连接矩阵、加权度、fALFF（分数低频振幅）、ReHo（局部一致性）、皮层表面积、
+连接矩阵、加权度、fALFF（分数低频振幅）、ReHo（局部一致性）、Area（皮层表面积）、Curv（平均曲率）
