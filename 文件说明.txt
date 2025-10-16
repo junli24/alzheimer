@@ -1,5 +1,7 @@
-Area_SurfLH.py：提取左脑皮层表面积
-Area_SurfRH.py：提取右脑皮层表面积
+Area_SurfLH.py：提取左脑皮层area
+Area_SurfRH.py：提取右脑皮层area
+Curv_SurfLH.py：提取左脑皮层curv
+Curv_SurfRH.py：提取右脑皮层curv
 fALFF_lh_sub-002S0295.func.gii：左脑皮层fALFF
 fALFF_rh_sub-002S0295.func.gii：右脑皮层fALFF
 fALFF_SurfLH.py：提取左脑皮层fALFF（200）
@@ -18,8 +20,18 @@ roi_signals.py：提取连接矩阵、加权度
 ROISignals_sub-002S0295.mat：ROI Bold信号
 sub-002S0295_space-fsaverage5_hemi-L.area.gii：左脑皮层area
 sub-002S0295_space-fsaverage5_hemi-L.curv.gii：左脑皮层curv
+sub-002S0295_space-fsaverage5_hemi-L.sulc.gii：左脑皮层sulc
 sub-002S0295_space-fsaverage5_hemi-R.area.gii：右脑皮层area
 sub-002S0295_space-fsaverage5_hemi-R.curv.gii：右脑皮层curv
+sub-002S0295_space-fsaverage5_hemi-R.sulc.gii：右脑皮层sulc
+Sulc_SurfLH.py：提取左脑皮层sulc
+Sulc_SurfRH.py：提取右脑皮层sulc
 Tian_Subcortex_S4_3T_2009cAsym.nii：体素地图
 
-连接矩阵、加权度、fALFF（分数低频振幅）、ReHo（局部一致性）、Area（皮层表面积）、Curv（平均曲率）
+连接矩阵
+加权度
+fALFF（分数低频振幅）
+ReHo（局部一致性）
+Area（皮层表面积）
+Curv（平均曲率）
+Sulc（脑沟深度）
